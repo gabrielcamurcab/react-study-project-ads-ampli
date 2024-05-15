@@ -15,13 +15,13 @@ Antes de começar, é necessário ter o Node.js e o npm (Node Package Manager) i
 1. **Clone o repositório:** Faça uma cópia do repositório em sua máquina local utilizando o comando:
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/gabrielcamurcab/react-study-project-ads-ampli
     ```
 
 2. **Instale as dependências:** Navegue até o diretório do projeto e instale as dependências executando o comando:
 
     ```bash
-    cd nome-do-repositorio
+    cd react-study-project-ads-ampli
     npm install
     ```
 
