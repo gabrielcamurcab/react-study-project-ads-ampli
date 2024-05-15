@@ -1,7 +1,7 @@
-function Footer(props) {
+function Footer({nome}) {
     return (
         <footer className="container">
-            <p className="texto-rodape">Gabriel Camurça &copy;</p>
+            <p className="texto-rodape">{nome}. Todos os direitos reservados&copy;.</p>
         </footer>
     );
 }
