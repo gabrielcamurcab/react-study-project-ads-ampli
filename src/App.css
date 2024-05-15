@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -26,6 +26,59 @@
 
 .App-link {
   color: #61dafb;
+}
+
+header {
+  background-color: gray;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+menu {
+  list-style-type: none;
+  padding-top: 25px;
+  text-align: right;
+}
+
+menu li {
+  display: inline;
+  padding: 35px;
+  color: wheat;
+  transition: all 0.2s ease-out;
+}
+
+menu li:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+
+main {
+  background-color:  bisque;
+  min-height: 250px;
+  text-align: left;
+}
+
+footer {
+  background-color: black;
+}
+
+.texto-rodape {
+  margin: 0px;
+  padding: 10px;
+  color: gainsboro;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+#conteudo {
+  padding: 20px;
 }
 
 @keyframes App-logo-spin {

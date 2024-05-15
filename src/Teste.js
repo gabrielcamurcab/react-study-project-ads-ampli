@@ -1,6 +1,6 @@
 import './App.css';
 
-function Teste() {
+function Teste(props) {
   return (
     <div style={
         {
@@ -10,7 +10,7 @@ function Teste() {
             fontSize: '2em'
         }
     }>
-        Renderizando outro componente
+        {props.mensagem}
     </div>
   );
 }
